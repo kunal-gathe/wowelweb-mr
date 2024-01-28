@@ -15,12 +15,13 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <link rel="stylesheet" href="./Header/style.css" />
+    <link rel="stylesheet" href="./Header/media.css">
     <title>Sneakers Shoes</title>
   </head>
   <body>
@@ -79,12 +80,29 @@
           src="./assets/Home Page/user.png"
           alt="user-logo"
         />
-        <div class="">
+        <div class="text2-line">
           <p class="text-small">Hello sigh in</p>
           <p class="text-medium">Account & Lists</p>
         </div>
       </div>
+      <div class="bars hi hide-desktop">
+        <i class="uil uil-bars" id="menu-bar"></i>
+        <div class="bar-list-container hide-menu" id="menu-close">
+          <i class="uil uil-times" id="cross" ></i>
+          <ul class="bar-list">
+            <li class="list-item active-home bar-item">HOME</li>
+            <li class="list-item bar-item">MEN</li>
+            <li class="list-item bar-item">WOMEN</li>
+            <li class="list-item bar-item">KIDS</li>
+            <li class="list-item bar-item">SHOP <i class="uil uil-angle-down"></i></li>
+            <li class="list-item bar-item">BLOG</li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
+   
+
 
     <!-------------------- Section 1  --------->
 
@@ -109,7 +127,7 @@
             src="./assets/Home Page/Slider/Shoes3.png"
             alt="shoes"
           />
-          <p class="shoe-name">Shoe name</p>
+          <p class="shoe-name">SoleFlex</p>
         </div>
         <div class="shoe-container">
           <img
@@ -117,7 +135,7 @@
             src="./assets/Home Page/Slider/Shoes.png"
             alt="shoes"
           />
-          <p class="shoe-name">Shoe name</p>
+          <p class="shoe-name">UrbanStride</p>
         </div>
         <div class="shoe-container">
           <img
@@ -125,7 +143,7 @@
             src="./assets/Home Page/Slider/Shoes2.png"
             alt="shoes"
           />
-          <p class="shoe-name">Shoe name</p>
+          <p class="shoe-name">TrendGlide</p>
         </div>
         <p><i class="uil uil-angle-up up-down"></i></p>
       </div>
@@ -207,7 +225,7 @@
     </section>
 
     <!-------------------- Section 2 Brand --------->
-    <section class="section-2">
+    <section class="section-2 hide">
       <div class="">
         <h1 class="brand-title">Our Brand</h1>
       </div>
@@ -217,7 +235,7 @@
         class="carousel slide container"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner w-100">
+        <div class="carousel-inner m-screen">
           <div class="carousel-item active">
             <div class="col-md-3">
               <div class="card card-body">
@@ -352,7 +370,7 @@
     </section>
 
     <!-------------------- Section 3 Category  --------->
-    <section class="section-3">
+    <section class="section-3 hide">
       <div class="">
         <h1 class="category-title">Our Best Categories</h1>
       </div>
@@ -362,7 +380,7 @@
         class="carousel slide container"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner w-100">
+        <div class="carousel-inner m-screen">
           <div class="carousel-item carousel-item-2 active">
             <div class="col-md-3">
               <div class="card-1 card-body">
@@ -517,13 +535,49 @@
       </div>
     </section>
 
+    <!-------------------- Section 3 Slider   --------->
+
+    <div id="carouselExample" class="carousel phone-carousel slide hide-desktop">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes2.png"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes3.png"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes4.png"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes5.png"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/Home Page/Categories/With bg image/Shoes6.png"  class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev phone-carousel-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon phone-carousel-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon phone-carousel-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <!-------------------- Upcoming Stock  --------->
 
     <section class="upcoming">
       <h1 class="upcoming-title">Upcoming Stock</h1>
 
       <div class="card-box-container">
-        <div class="card" style="width: 18rem">
+        <div class="card card-wid">
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-1.png"
@@ -549,7 +603,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-2.png"
@@ -575,7 +629,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-3.png"
@@ -601,7 +655,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-4.png"
@@ -627,7 +681,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-5.png"
@@ -653,7 +707,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-6.png"
@@ -679,7 +733,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-7.png"
@@ -705,7 +759,7 @@
             </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
+        <div class="card  card-wid"  >
           <i class="uil upcoming-heart uil-heart-alt"></i>
           <img
             src="/assets/Home Page/Upcomming Stock/Image-8.png"
@@ -823,40 +877,42 @@
               <p class="price">$450.00</p>
             </div>
           </div>
-          <div class="brand-shoe-box">
+          <div class="brand-shoe-box ">
             <img
               class="brand-shoe-img"
               src="./assets/Home Page/Nike/Nike3.png"
               alt=""
             />
-            <div>
-              <div class="star-flex">
-                <img
-                  class="star"
-                  src="./assets/Home Page/star.png"
-                  alt="star"
-                />
-                <img
-                  class="star"
-                  src="./assets/Home Page/star.png"
-                  alt="star"
-                />
-                <img
-                  class="star"
-                  src="./assets/Home Page/star.png"
-                  alt="star"
-                />
-                <img
-                  class="star"
-                  src="./assets/Home Page/star-blank.png"
-                  alt="star"
-                />
-                <img
-                  class="star"
-                  src="./assets/Home Page/star-blank.png"
-                  alt="star"
-                />
-              </div>
+            <div class="shoe-brand-container">
+              <dv class="shoe-brand-container">
+                <div class="star-flex">
+                  <img
+                    class="star"
+                    src="./assets/Home Page/star.png"
+                    alt="star"
+                  />
+                  <img
+                    class="star"
+                    src="./assets/Home Page/star.png"
+                    alt="star"
+                  />
+                  <img
+                    class="star"
+                    src="./assets/Home Page/star.png"
+                    alt="star"
+                  />
+                  <img
+                    class="star"
+                    src="./assets/Home Page/star-blank.png"
+                    alt="star"
+                  />
+                  <img
+                    class="star"
+                    src="./assets/Home Page/star-blank.png"
+                    alt="star"
+                  />
+                </div>
+              </dv>
               <p class="shoe-dis">
                 Stylish Casual Sports Shoe outdoor For Women
               </p>
@@ -869,7 +925,7 @@
               src="./assets/Home Page/Nike/Nike2.png"
               alt=""
             />
-            <div>
+            <div class="shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -927,7 +983,7 @@
               src="./assets/Home Page/Puma/Puma4.png"
               alt=""
             />
-            <div class="shoe-brand-container">
+            <div class="shoe-brand-container shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -965,7 +1021,7 @@
               src="./assets/Home Page/Puma/Puma5.png"
               alt=""
             />
-            <div>
+            <div class="shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -1003,7 +1059,7 @@
               src="./assets/Home Page/Puma/Puma2.png"
               alt=""
             />
-            <div>
+            <div class="shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -1036,7 +1092,7 @@
             </div>
           </div>
         </div>
-        <div class="first-brand">
+        <div class="first-brand block-ele hide-mob">
           <div class="first-child">
             <h1 class="brand-name">Adidas Sneakers</h1>
             <div>
@@ -1053,13 +1109,13 @@
               width: 90%;
             "
           />
-          <div class="brand-shoe-box">
+          <div class="brand-shoe-box ">
             <img
               class="brand-shoe-img"
               src="./assets/Home Page/Adidas/Adidas3.png"
               alt=""
             />
-            <div class="shoe-brand-container">
+            <div class="shoe-brand-container ">
               <div class="star-flex">
                 <img
                   class="star"
@@ -1097,7 +1153,7 @@
               src="./assets/Home Page/Adidas/Adidas4.png"
               alt=""
             />
-            <div>
+            <div class="shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -1135,7 +1191,7 @@
               src="./assets/Home Page//Adidas/Adidas5.png"
               alt=""
             />
-            <div>
+            <div class="shoe-brand-container">
               <div class="star-flex">
                 <img
                   class="star"
@@ -1181,7 +1237,8 @@
             src="./assets/Home Page/Instagram.png"
             alt=""
             class="follow-insta-icon"
-          />Instagram
+          />
+          <span class="instat-text">Instagram</span>
         </div>
         <img
           class="follow-img"
@@ -1258,7 +1315,7 @@
         </div>
         <div class="child-blog-box">
           <div class="blog-second">
-            <div class="card-blog-child" style="width: 16.5rem">
+            <div class="card-blog-child">
               <button class="date-child">02 sept 2022</button>
               <img
                 src="./assets/Home Page/Blog/Image-1.png"
@@ -1277,7 +1334,7 @@
             </div>
           </div>
           <div class="blog-second">
-            <div class="card-blog-child" style="width: 16.5rem">
+            <div class="card-blog-child" >
               <button class="date-child">02 sept 2022</button>
               <img
                 src="./assets/Home Page/Blog/Image-2.png"
@@ -1295,8 +1352,8 @@
               </div>
             </div>
           </div>
-          <div class="blog-second">
-            <div class="card-blog-child" style="width: 16.5rem">
+          <div class="blog-second hide-mob">
+            <div class="card-blog-child" >
               <button class="date-child">02 sept 2022</button>
               <img
                 src="./assets/Home Page/Blog/Image-3.png"
@@ -1314,7 +1371,7 @@
               </div>
             </div>
           </div>
-          <div class="blog-second">
+          <div class="blog-second hide-mob">
             <div class="card-blog-child" style="width: 16.5rem">
               <button class="date-child">02 sept 2022</button>
               <img
@@ -1322,7 +1379,7 @@
                 class="card-img-child"
                 alt="..."
               />
-              <p class="blog-heading-child">Blog title number 01</p>
+              <p class="blog-heading-child ">Blog title number 01</p>
               <div class="card-body-child">
                 <div class="blog-share-child">
                   <div class="comments-child">
@@ -1380,7 +1437,7 @@
             <li class="category-item">Help</li>
           </ul>
         </div>
-        <div class="second-footer-child">
+        <div class="second-footer-child f-contact">
           <p class="category-footer-text">
             <span class="border-down">CONT</span>ACT US
           </p>
@@ -1392,7 +1449,7 @@
                   src="./assets/Home Page/placeholder.png"
                   alt="location"
                 />
-                <p>625, david dikate road Adventure Land.</p>
+                <p class="contact-detail">625, david dikate road Adventure Land.</p>
               </div>
             </li>
             <li class="category-item space">
@@ -1409,7 +1466,7 @@
                   src="./assets/Home Page/circle.png"
                 alt="location"
                 />
-                <p>+123 456 781 +123 456 781</p>
+                <p class="contact-detail">+123 456 781 +123 456 781</p>
               </div>
               
             </li>
@@ -1426,7 +1483,7 @@
             <i class="uil uil-facebook contact-icon2"></i>
           </div>
         </div>
-        <div class="second-footer-child">
+        <div class="second-footer-child hide-mob">
           <p class="category-footer-text">
             <span class="border-down">TRAC</span>K YOUR ORDER
           </p>

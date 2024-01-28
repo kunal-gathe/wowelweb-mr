@@ -68,3 +68,16 @@ $(".carousel .carousel-item").each(function () {
 });
 
 
+
+
+// Hamburger
+
+
+document.getElementById('menu-bar').addEventListener('click', ()=>{
+  document.getElementById('menu-close').classList.remove("hide-menu")
+})
+
+document.getElementById('cross').addEventListener('click', ()=>{
+  document.getElementById('menu-close').classList.add("hide-menu")
+
+})

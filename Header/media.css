@@ -1,0 +1,916 @@
+/* =================================================  RESPONSIVE MEDIA QUERY ========================================================== */
+
+@media screen and (max-width: 991px) {
+  body {
+    /* background-color: aqua;  */
+  }
+  .hide-desktop {
+    display: none;
+  }
+  .list-item {
+    margin-right: 2rem;
+  }
+  .carousel-item {
+    width: 60%;
+  }
+  .m-screen {
+    margin-left: -11rem;
+    width: 65rem;
+  }
+  .carousel-control-prev-icon {
+    margin: 6rem 0rem 0rem -24rem;
+  }
+  .carousel-control-next-icon {
+    margin: 6rem -28rem 0rem 0rem;
+  }
+  .section-3 {
+    margin-top: 8rem;
+  }
+  .card-wid {
+    width: 16rem;
+  }
+  .big-shoe {
+    width: 47%;
+  }
+  .shoes-pair {
+    position: absolute;
+    right: -27rem;
+    margin-top: -3rem;
+  }
+  .banner-content {
+    width: 47%;
+    left: 14rem;
+    margin-top: 4rem;
+  }
+  .insta-box {
+    left: 63%;
+    margin-top: 5rem;
+  }
+  .child-blog-box {
+    margin-left: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* body {
+    background-color: yellow;
+  } */
+  .hide-desktop {
+    display: none;
+  }
+  .m-screen {
+    margin-left: -9rem;
+    width: 62rem;
+  }
+  .carousel-item {
+    width: 60%;
+  }
+  .shoes-pair {
+    right: -43rem;
+  }
+  .insta-box {
+    left: 82%;
+    margin-top: 5rem;
+  }
+  .child-blog-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-second {
+    margin-left: 1rem;
+}
+}
+/* @media screen and (max-width: 479px) { 
+
+  body {
+    background-color: red;
+  }
+  .header {
+    background-color: red;
+    margin: 0px 0rem;
+    width: 100%;
+    padding: 0rem 0rem;
+    font-size: 1rem;
+  }
+  .header-icons-cart {
+    width: 2rem;
+    margin-right: 5rem;
+  }
+  .header-text {
+    font-size: 1.3rem;
+  }
+  .header-icons-like {
+    width: 2.3rem;
+  }
+  .header-btn {
+    font-size: 1.3rem;
+  }
+  nav {
+    width: 90%;
+    margin: 2rem 0 0 0rem;
+  }
+  #logo {
+    width: 15rem;
+  }
+  .nav-list {
+    display: none;
+  }
+  .search {
+    padding: 1.5rem;
+    width: 51rem;
+    font-size: 1.2rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+  .search-img {
+    width: 1.6rem;
+  }
+  .search-btn {
+    padding: 1rem;
+    margin-left: -5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.7rem;
+  }
+  .text2-line {
+    display: none;
+  }
+  .section1-text-small {
+    display: none;
+  }
+  .first-part {
+    padding: 13rem 0;
+  }
+  .section-shoes-slider {
+    padding-top: 6rem;
+  }
+  .section-1 {
+    margin: 0rem 0rem;
+  }
+  .banner-content {
+    width: 39rem;
+    left: 5rem;
+    margin-top: 7rem;
+  }
+  .shoes-pair {
+    right: -70rem;
+  }
+  .big-shoe {
+    width: 68%;
+  }
+  .small-shoe {
+    width: 35%;
+    margin-right: -3rem;
+    margin-top: 0rem;
+  }
+  .banner-btn {
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+  }
+  .banner-text {
+    opacity: 0.8;
+    font-size: 1.3rem;
+  }
+  .banner {
+    margin: 0;
+    width: 100%;
+  }
+  .block-ele {
+    margin-top: 0.8rem;
+  }
+  .top-brand-container {
+    flex-wrap: wrap;
+    margin: 0rem 3rem;
+  }
+  .first-brand {
+    margin-left: -0.5rem;
+    margin-right: 2.5rem;
+  }
+  .follow-insta-icon {
+    width: 3rem;
+    margin-right: 0.5rem;
+  }
+  .insta-img {
+    margin: 1px 0rem;
+    display: flex;
+  }
+  .instat-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+  }
+  .insta-box {
+    left: 40rem;
+    margin-top: 5rem;
+    width: 18rem;
+  }
+  .blog {
+    width: 96%;
+    margin: 3rem 0;
+  }
+  .card-img-top-blog {
+    width: 48rem;
+  }
+  .date {
+    left: 26rem;
+  }
+  .blog-heading {
+    font-size: 1.9rem;
+  }
+  .card-text-blog {
+    width: 49rem;
+    font-size: 1.4rem;
+    opacity: 0.6;
+  }
+  .blog-share {
+    font-size: 1.1rem;
+  }
+  .blog-black-btn {
+    font-size: 1.2rem;
+  }
+  .child-blog-box {
+    margin-left: 2.5rem;
+  }
+  .card-img-child {
+    width: 21rem;
+  }
+  .blog-heading-child {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-body-child {
+    font-size: 1.2rem;
+  }
+  .footer {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem 0 4rem;
+  }
+  .first-footer-child {
+    font-size: 1.8rem;
+  }
+  .category-item {
+    width: 14rem;
+    font-size: 1.2rem;
+  }
+  .bottom-footer-text {
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+  .bottom-footer-img {
+    width: 35%;
+    height: 20%;
+    cursor: pointer;
+  }
+  .bottom-footer-img {
+    width: 40%;
+    height: 48%;
+    cursor: pointer;
+    margin-right: 5rem;
+  }
+  .branding {
+    width: 110rem;
+    margin-left: -9rem;
+  }
+  .hide {
+    display: none;
+  }
+  .card-wid {
+    width: 31.5rem;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  .star {
+    width: 1.8rem;
+    margin: 0 0.1rem;
+  }
+  .upcoming-btn {
+    font-size: 1.3rem;
+  }
+  .shoe-dis {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .block-ele {
+    margin-top: 2rem;
+  }
+  .price {
+    font-size: 1.9rem;
+  }
+  .upcoming-price {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto 0;
+  }
+  .upcoming {
+    margin: 8rem 0 4rem 0;
+  }
+  .card-box-container {
+    margin: 0px 0.3rem 0rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner-heading {
+    font-size: 3rem;
+  }
+  .brand-name {
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  .brand-shoe-img {
+    width: 60%;
+    margin-right: 2.5rem;
+  }
+  .blog-first {
+    width: 50%;
+  }
+  .blog-second {
+    width: 22rem;
+    margin-left: 0rem;
+  }
+  .second-footer-child {
+    width: 15rem;
+  }
+  .category-list {
+    list-style: none;
+    width: 14rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .contact-flex {
+    width: 15rem;
+    display: flex;
+  }
+  .contact-icon2 {
+    font-size: 1.8rem;
+  }
+  .pintrest {
+    width: 2.8rem;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+  .phone-carousel {
+    margin-top: 5rem;
+    width: 90rem;
+  }
+  .phone-carousel-prev {
+    margin-left: -1rem;
+    margin-top: 4rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .phone-carousel-next {
+    margin-left: -14rem;
+    margin-top: 1rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .section1-shoes {
+    width: 9rem;
+}
+.shoe-name {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.section-1-btn {
+    font-size: 1.8rem;
+}
+.bars{
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+.user-img {
+    margin-top: 1rem;
+    display: none;
+}
+
+.navigation {
+    position: absolute;
+    top: 7rem;
+    right: 20px;
+    width: 10rem;
+    height: 4rem;
+    background: #fff;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    transition: height 0.5s, width 0.5s;
+    transition-delay: 0s, 0.75s;
+    overflow: hidden;
+  }
+  .navigation.active {
+    width: 300px;
+    height: 400px;
+    transition: width 0.5s, height 0.5s;
+    transition-delay: 0s, 0.75s;
+  }
+  .navigation .userBx {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
+  .navigation.active .userBx {
+    width: calc(100% - 60px);
+    transition-delay: 0s;
+  }
+  .navigation .userBx .username {
+    white-space: nowrap;
+    color: #555;
+    font-size: 1.8em;
+    margin-top: 0.8rem;
+  }
+  .navigation .userBx .imgBx {
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: #000;
+    border-radius: 50%;
+    border: 10px solid #fff;
+  }
+  .navigation .userBx .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu {
+    font-size: 1.8rem;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu li {
+    list-style: none;
+  }
+  .menu li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1em;
+    text-decoration: none;
+    color: #555;
+  }
+  .menu li a:hover {
+    color: #4e65ff;
+  }
+  .menu li a ion-icon {
+    font-size: 1.5em;
+  }
+
+
+  .navigation .menuToggle {
+    position: relative;
+    width: 5rem;
+    height: 4rem;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation .menuToggle::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: translateY(-10px);
+    box-shadow: 0 10px #555;
+    transition: 0.5s;
+  }
+  .navigation .menuToggle::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: translateY(10px);
+    transition: 0.5s;
+  }
+  .navigation.active .menuToggle::before {
+    transform: translateY(0px) rotate(45deg);
+    box-shadow: 0 0 #555;
+  }
+  .navigation.active .menuToggle::after {
+    transform: translateY(0px) rotate(-45deg);
+  }
+  .user-phone-img{
+    width: 15rem;
+  }
+} */
+
+@media screen and (max-width: 376px) {
+  /* body{
+    background-color: blueviolet;
+  } */
+
+  .header {
+    margin: 0p;
+    width: 100%;
+    padding: 0.2rem 1rem;
+  }
+  .header-btn {
+    font-size: 1.5rem;
+  }
+  .header-text {
+    font-size: 1.5rem;
+  }
+  .header-icons-like {
+    width: 2.8rem;
+  }
+  .header-icons-cart {
+    width: 2.5rem;
+  }
+  nav {
+    width: 95%;
+    margin: 2rem 0rem;
+  }
+  #logo {
+    width: 16rem;
+  }
+  .list {
+    display: none;
+  }
+  .search {
+    padding: 0.8rem;
+    width: 33rem;
+    font-size: 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  .text2-line {
+    display: none;
+  }
+  .search-img {
+    width: 1.5rem;
+  }
+  .search-btn {
+    padding: 1rem;
+    margin-left: -4rem;
+    border-radius: 0.3rem;
+  }
+
+  .section1-text-small {
+    display: none;
+  }
+  .section-1 {
+    margin: 0rem 0.5rem;
+  }
+  .section-1-btn {
+    font-size: 1.6rem;
+  }
+  .section1-shoes {
+    width: 7rem;
+  }
+  .shoe-name {
+    font-size: 1.5rem;
+  }
+  .first-part {
+    width: 29%;
+    padding: 9rem 11px;
+  }
+  .up-down {
+    font-size: 4rem;
+  }
+
+  .section-3,
+  .section-2 {
+    display: none;
+  }
+  /* .user-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 6.5rem;
+    opacity: 0.7;
+} */
+  .slide {
+    display: block;
+  }
+  .phone-carousel {
+    margin-top: 4rem;
+    width: 90%;
+  }
+  .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem -11rem 0rem 0rem;
+  }
+  .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 8rem 0rem -4rem;
+  }
+
+  .brand-shoe-img {
+    width: 90%;
+    margin-right: 1.5rem;
+  }
+  .blog-share-child {
+    width: 31rem;
+    display: flex;
+    height: 2.3rem;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+  }
+  .upcoming {
+    margin: 3rem 0 3rem 0;
+  }
+  .upcoming-title {
+    font-size: 2.5rem;
+  }
+  .upcoming-heart {
+    font-size: 3.5rem;
+  }
+  .upcoming-price {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto 0;
+  }
+  .card-box-container {
+    margin: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-wid {
+    margin-left: 1.3rem;
+    width: 31rem;
+  }
+  .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .star {
+    width: 1.7rem;
+  }
+  .upcoming-btn {
+    font-size: 1.5rem;
+  }
+  .branding {
+    display: flex;
+  }
+  .banner-heading {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .banner-text {
+    display: none;
+  }
+  .banner-content {
+    width: 35rem;
+    left: 7rem;
+    margin-top: 3rem;
+  }
+  .banner {
+    /* margin: auto; */
+    width: 98%;
+  }
+  .banner-btn {
+    margin: 0rem 0;
+    font-size: 1.8rem;
+  }
+  .shoes-pair {
+    display: none;
+    position: absolute;
+    display: flex;
+    margin-right: -2rem;
+    margin-top: -3rem;
+  }
+  .big-shoe {
+    width: 20rem;
+  }
+  .small-shoe {
+    margin-top: 5rem;
+    width: 55%;
+    height: 10rem;
+  }
+  .small-shoe {
+    margin-top: 6rem;
+    width: 100%;
+    height: 11rem;
+  }
+  .top-brand-container {
+    display: flex;
+    margin: 1rem 1rem 0rem 0rem;
+  }
+
+  .first-brand {
+    width: 32rem;
+    margin-left: 0.5rem;
+  }
+  .top-brand-container {
+    width: 98%;
+    margin: 1rem 0rem 2rem 1rem;
+  }
+  .brand-shoe-box {
+    /* width: 30rem; */
+    margin: 1.5rem 0;
+  }
+  .shoe-brand-container {
+    margin-right: 0rem;
+    width: 30rem;
+  }
+  .shoe-dis {
+    font-size: 1.7rem;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+  .brand-name {
+    font-size: 2.7rem;
+  }
+  .insta-img {
+    width: 99%;
+    margin: 0rem 0rem 0rem 0.4rem;
+  }
+  .insta-box {
+    width: 12rem;
+    left: 28rem;
+    margin-top: 5rem;
+  }
+  .instat-text {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .follow-insta-icon {
+    width: 2.5rem;
+    margin-right: 0.5rem;
+  }
+  .blog {
+    width: 98%;
+    margin: 3rem 0;
+  }
+  .blog-first {
+    width: 48%;
+  }
+  .blog-container {
+    width: 96%;
+  }
+  .fallow {
+    width: 96%;
+  }
+  .card-img-top-blog {
+    width: 68rem;
+    height: 25rem;
+  }
+
+  .child-blog-box {
+    margin-left: -0.2rem;
+  }
+
+  .date {
+    left: 56rem;
+    font-size: 1.4rem;
+  }
+  .card-text-blog {
+    font-size: 1.3rem;
+    width: 62rem;
+    opacity: 0.6;
+  }
+  .blog-share {
+    width: 67rem;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+  .blog-black-btn {
+    width: 22%;
+    font-size: 1rem;
+  }
+  .blog-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+ 
+  .footer {
+    width: 100%;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-text {
+    display: none;
+  }
+  .footer-container {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .category-footer-text {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .category-item {
+    font-size: 1.6rem;
+  }
+  .contact-flex {
+    width: 14rem;
+  }
+  .pintrest {
+    width: 2.5rem;
+  }
+
+  .blog-container {
+    display: block;
+    /* justify-content: space-between; */
+  }
+  .hide-mob {
+    display: none;
+  }
+
+  .blog-second {
+    width: 20rem;
+    margin-right: 10rem;
+  }
+  .card-img-child {
+    width: 31rem;
+  }
+  .blog-heading-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .card-blog-child {
+    width: 24rem;
+  }
+  .blog-black-btn-child {
+    font-size: 1.2rem;
+  }
+  .date-child {
+    left: 22rem;
+    font-size: 1.1rem;
+  }
+  .bottom-footer-text {
+    font-size: 1.3rem;
+    opacity: 0.8;
+  }
+  .bottom-footer-img {
+    width: 40%;
+    height: 40%;
+    cursor: pointer;
+  }
+  .download-tex {
+    font-size: 2rem;
+  }
+  .f-contact {
+    margin-left: 2rem;
+    margin-right: 7rem;
+  }
+
+  .bars {
+    display: block;
+  }
+  .uil-bars {
+    color: black;
+    font-size: 3rem;
+  }
+  .bar-list-container {
+    position: absolute;
+    margin-left: -16.5rem;
+    margin-top: -5rem;
+  }
+  .bar-list {
+    list-style: none;
+    background-color: rgb(227, 225, 225);
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+  }
+  .bar-item {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .uil-times {
+    font-size: 3rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .hide-menu {
+    display: none;
+  }
+}

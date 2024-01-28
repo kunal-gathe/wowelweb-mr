@@ -8,6 +8,9 @@ button,
 uii {
   cursor: pointer;
 }
+.hide-desktop{
+  display: none;
+}
 
 /* // =============================================     Header CSS  ========================================== */
 
@@ -114,7 +117,7 @@ nav {
   font-weight: bold;
 }
 
-/* // =============================================     Section 1 CSS  ========================================== */
+/* // =============================================     Section 1 CSS hOME  ========================================== */
 
 .section-1 {
   margin: 3rem 10.5rem;
@@ -349,7 +352,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   );
 }
 
-/* // =============================================     Section 2 CSS  ========================================== */
+/* // =============================================     Section 2 CSS our Brand  ========================================== */
 
 .section-2 {
 }
@@ -363,7 +366,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .carousel-inner .carousel-item > div {
     display: none;
   }
@@ -373,14 +376,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   }
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-start,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next,
   .carousel-item-next:not(.carousel-item-start) {
@@ -403,6 +399,14 @@ input[type="range"]:active::-webkit-slider-thumb {
   .carousel-item-prev:not(.carousel-item-end) {
     transform: translateX(-25%) !important;
   }
+} 
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next, 
+.carousel-inner .carousel-item-prev {
+  display: flex;
 }
 .carousel-control-next-icon {
   background-color: rgb(0, 0, 0);
@@ -437,6 +441,9 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .section-3 {
   margin-top: 12rem;
+}
+.card-wid{
+  width: 18rem;
 }
 .category-title {
   text-align: center;
@@ -647,6 +654,9 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 75%;
   margin: 3rem 0;
 }
+.card-blog-child{
+  width: 18rem;
+}
 .blog-container {
   display: flex;
   /* justify-content: space-between; */
@@ -698,6 +708,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   top: 3rem;
   padding: 0.2rem 1rem;
 }
+
 .share-text {
   margin-right: 1rem;
 }
@@ -721,7 +732,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-left: 2rem;
 }
 .card-img-child {
-  width: 16rem;
+  width: 18rem;
 }
 .blog-heading-child {
   font-weight: bold;
@@ -759,7 +770,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   background-color: #ff0a0a;
   color: #fff;
   border: none;
-  left: 8rem;
+  left: 11rem;
   font-size: 0.8rem;
   top: 2.5rem;
   padding: 0.2rem 1rem;
@@ -894,13 +905,5 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 35%;
   height: 20%;
   cursor: pointer;
-}
-
-/* =================================================  RESPONSIVE MEDIA QUERY ========================================================== */
-
-@media screen and (max-width: 991px) {
-  body{
-    background-color: aqua;
-  }
 }
 
